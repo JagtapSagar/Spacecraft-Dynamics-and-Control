@@ -7,6 +7,8 @@ function [C] = singleDCM(angle,rotation_index, unit)
 %
 %   Output: [C] which is the DCM rotation for the given angle
 %   NOTE: Returns Identity DCM if given invalid arguments
+%
+%   Dependency: None
 
 % Initializing DCM matrix
 C = eye(3,3);
