@@ -26,7 +26,7 @@ end
 if abs(phi)==180 || abs(phi)==0 || abs(phi)==360 || ...
         abs(phi)==pi || abs(phi)==pi/2
     disp("Encountered Singularity.")
-    disp("Retorned vector may not be usable.")
+    disp("Returned vector may not be usable.")
 
 end
 
