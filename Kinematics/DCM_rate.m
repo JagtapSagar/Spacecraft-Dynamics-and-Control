@@ -9,6 +9,8 @@ function [DCM_dot] = DCM_rate(DCM,w)
 %   [X_tilde] is skew-symmetric
 %   [X_tilde]X = XxX = 0
 %   [X_tilde]' = -[X_tilde]
+%
+%   Dependency: None
 
 % Using cross-product operator (w x y = w_tilda * y)
 w_tilde = [0 -w(3) w(2); w(3) 0 -w(1); -w(2) w(1) 0];
