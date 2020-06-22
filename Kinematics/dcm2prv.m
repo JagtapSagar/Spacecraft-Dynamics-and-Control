@@ -10,6 +10,8 @@ function [e, phi, long_phi] = dcm2prv(C, unit)
 %   e: Unit Principal Rotation Vector
 %   phi: Short angle of rotation about e
 %   long_phi: Long angle of rotation about e
+%
+%   Dependency: None
 
 if nargin~=2 || ~strcmp(unit,'deg')
     phi = acos(0.5*(C(1,1)+C(2,2)+C(3,3)-1));
