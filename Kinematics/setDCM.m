@@ -9,6 +9,8 @@ function [C] = setDCM(first, second, third, theta1, theta2, theta3, unit)
 %
 %   Output: [C] which is the DCM rotation of the set
 %   NOTE: Returns Identity DCM if given invalid arguments
+%
+%   Dependency: singleDCM
 
 % Initializing DCM matrix
 C = eye(3,3);
